@@ -3,9 +3,9 @@ import os
 from git import Repo
 import datetime as dt
 tgl = dt.datetime.now().strftime("%y%m%d_%H%M%S")
-os.chdir('/content/images')
+os.chdir('/content/images2')
 
-full_local_path = "/content/images"
+full_local_path = "/content/images2"
 
 repo = Repo(full_local_path)
 repo.git.add("-A")
